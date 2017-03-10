@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Poiret+One');
+
+header {
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+}
+.flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+    #wild {
+        font-family: 'Fontdiner Swanky', cursive;
+        padding: 20px;
+        color: rgba(190,162,92,1);
+        font-size: 60px;
+    }
+    #welcome {
+        font-family: 'Poiret One', cursive;
+        padding: 20px 10px;
+        color: rgba(190,0,0,1);
+        font-size: 45px;    
+    }
+    #logo {
+        padding: 20px 0px 0px 20px;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    nav {
+        background: rgba(0,0,0,0.8);   
+   }
+    ul {
+        list-style: none;
+    }
+        li {
+            font-family: 'Poiret One', cursive;
+            padding: 5px 15px;
+            color: rgba(255,255,255,1);
+            font-size: 25px;
+        }
+
+h3 {
+    font-family: 'Poiret One', cursive;
+    padding: 0px 40px;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    font-size: 30px;
+}       
+section p {
+    max-width: 400px;
+    height: 500px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    color: rgba(190,0,0,1);
+}
+#magic1 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+#balancing {
+    height: 100%;
+    max-height: 400px;
+    height: auto;
+}
+#juggle {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    background: rgba(0,0,0,1);
+}
+    a:link {
+        font-family: 'Poiret One', cursive;
+        color: rgba(255,255,255,0.9);
+        padding: 0px 15px;
+        font-size: 25px;
+        text-decoration: none;
+    }  
+    a:visited {
+        color: rgba(255,255,255,0.9)
+    }
+
+@media (max-width: 800px) {
+        .flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #welcome {
+            font-size: 30px; 
+        }
+        #wild {
+            font-size: 45px;
+        }
+        #logo {
+            width:100%;
+            max-width:150px;
+            height: auto;
+        }
+    }

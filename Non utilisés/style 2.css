@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    background: url("http://wildcircus.craym.eu/ressources/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+    font-family: ;
+
+
+    input {
+	Border: 1;
+	border-color: rgba(0,0,0,1);
+	border-radius: 12px;
+	padding: 10px;
+	font-family: 'bonvenocflight', arial, verdana, sans-serif;
+}
+input[type="submit"] {
+	background: rgba(190,0,0,1);
+	color: rgba(255,255,255,1);
+	font-family: 'bonvenocflight', arial, verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'walkway_boldregular';
+    src: url('polices/walkwaybold_regular_macroman/Walkway_Bold-webfont.eot');
+    src: url('polices/walkwaybold_regular_macroman/Walkway_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/walkwaybold_regular_macroman/Walkway_Bold-webfont.woff') format('woff'),
+         url('polices/walkwaybold_regular_macroman/Walkway_Bold-webfont.ttf') format('truetype'),
+         url('polices/walkwaybold_regular_macroman/Walkway_Bold-webfont.svg#walkway_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  
